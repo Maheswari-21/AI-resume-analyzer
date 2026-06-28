@@ -41,45 +41,53 @@ An AI-powered Resume Analyzer web application that helps users analyze their res
 
 ```md
 ## Project Structure
+
 ```text
 AI-Resume-Analyzer
 
 ├── client
-│ └── React Frontend
+│   └── React Frontend
 │
 ├── server
-│ └── Node.js Backend
+│   └── Node.js Backend
 │
 ├── .gitignore
 └── README.md
 ```
+
 ## Installation
 
 ### Clone Repository
+
 ```bash
 git clone your-repository-link
 ```
+
 ### Frontend Setup
+
 ```bash
 cd client
 npm install
 npm start
 ```
-### Backend Setup
-```bash
 
+### Backend Setup
+
+```bash
 cd server
 npm install
 npm run dev
 ```
+
 ### Environment Variables
-Create a .env file inside the server folder:
+
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 AI_API_KEY=your_api_key
 ```
+
 ### Application Flow
 
 1. User creates an account
@@ -90,6 +98,5 @@ AI_API_KEY=your_api_key
 6. User views analysis result
 
 ### Author
+
 Maheswari
-
-
