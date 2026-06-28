@@ -39,9 +39,8 @@ An AI-powered Resume Analyzer web application that helps users analyze their res
 
 - Cohere API
 
-
 ## Project Structure
-````md
+
 ```text
 AI-Resume-Analyzer
 
@@ -58,26 +57,20 @@ AI-Resume-Analyzer
 ## Installation
 
 ### Clone Repository
-````md
-```bash
+
 git clone your-repository-link
-```
 
 ### Frontend Setup
 
-```bash
 cd client
 npm install
 npm start
-```
 
 ### Backend Setup
-```md
-```bash
+
 cd server
 npm install
 npm run dev
-```
 
 ### Environment Variables
 
