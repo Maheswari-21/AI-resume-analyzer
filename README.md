@@ -57,21 +57,21 @@ AI-Resume-Analyzer
 ## Installation
 
 ### Clone Repository
-
+```text
 git clone your-repository-link
-
+```
 ### Frontend Setup
-
+```text
 cd client
 npm install
 npm start
-
+```
 ### Backend Setup
-
+```text
 cd server
 npm install
 npm run dev
-
+```
 ### Environment Variables
 
 ```env
