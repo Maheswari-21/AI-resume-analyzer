@@ -39,7 +39,7 @@ An AI-powered Resume Analyzer web application that helps users analyze their res
 
 - Cohere API
 
-```md
+````md
 ## Project Structure
 
 ```text
@@ -54,11 +54,11 @@ AI-Resume-Analyzer
 ├── .gitignore
 └── README.md
 ```
-```md
+
 ## Installation
 
 ### Clone Repository
-
+````md
 ```bash
 git clone your-repository-link
 ```
