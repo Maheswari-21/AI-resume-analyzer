@@ -52,34 +52,34 @@ AI-Resume-Analyzer
 │
 ├── .gitignore
 └── README.md
-
+```
 ## Installation
 
 ### Clone Repository
-
+```bash
 git clone your-repository-link
-
+```
 ### Frontend Setup
 ```bash
 cd client
 npm install
 npm start
-
+```
 ### Backend Setup
+```bash
 
 cd server
 npm install
 npm run dev
-
+```
 ### Environment Variables
-
 Create a .env file inside the server folder:
-
+```env
 PORT=5000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 AI_API_KEY=your_api_key
-
+```
 ### Application Flow
 
 1. User creates an account
