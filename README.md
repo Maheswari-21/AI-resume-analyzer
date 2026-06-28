@@ -54,7 +54,7 @@ AI-Resume-Analyzer
 ├── .gitignore
 └── README.md
 ```
-
+```md
 ## Installation
 
 ### Clone Repository
@@ -70,7 +70,7 @@ cd client
 npm install
 npm start
 ```
-
+```md
 ### Backend Setup
 
 ```bash
