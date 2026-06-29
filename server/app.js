@@ -12,7 +12,7 @@ app.use(cors({
     origin: [
         "http://localhost:3000",
         "http://localhost:3001",
-        "https://ai-resume-analyzer1-livid.vercel.app"
+        "https://ai-resume-analyzer-two-beryl.vercel.app"
     ],
     credentials: true
 }));
