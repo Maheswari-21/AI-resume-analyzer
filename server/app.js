@@ -17,7 +17,6 @@ app.use(cors({
   credentials: true
 }));
 app.use(express.json());
-app.use(cors());
 app.use("/api/auth", authRoutes);
 app.use("/api/analyze", analyzeRoutes);
 app.use("/api/upload", uploadRoutes); 
