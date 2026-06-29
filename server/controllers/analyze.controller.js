@@ -8,8 +8,9 @@ const Analysis = require("../models/Analysis");
 
 exports.analyze = async (req, res) => {
   console.log("ANALYZE API HIT");
-console.log("FILE:", req.file);
-console.log("BODY:", req.body);
+  console.log("FILE:", req.file);
+  console.log("BODY:", req.body);
+  console.log("FILE PATH:", req.file.path);
   try {
     if (!req.file) {
       return res.status(400).json({ error: "No file uploaded" });
@@ -211,7 +212,6 @@ console.log("BODY:", req.body);
 
   } catch (err) {
     console.error("ANALYZE ERROR:", err);
-console.error(error);
     return res.status(500).json({ error: err.message });
   }
 };
