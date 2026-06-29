@@ -58,7 +58,7 @@ AI-Resume-Analyzer
 
 ### Clone Repository
 ```text
-git clone your-repository-link
+git clone https://github.com/Maheswari-21/AI-resume-analyzer
 ```
 ### Frontend Setup
 ```text
