@@ -90,6 +90,20 @@ AI_API_KEY=your_api_key
 5. Skills and score are generated
 6. User views analysis result
 
+## Screenshots
+
+### Signup Page
+![Register](./screenshots/signup.png)
+
+### Login Page
+![Login](./screenshots/login.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Result Analysis
+![Result](./screenshots/analyze.png)
+
 ### Author
 
 Maheswari

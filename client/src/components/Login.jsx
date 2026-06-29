@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import MyCustomImage from "../assets/ai.png";
+import { API_URL } from "../config";
+console.log("API URL:", API_URL);
+
 const Login = () => {
     const [formData, setFormData] = useState({
         email: '',
@@ -20,15 +23,14 @@ const Login = () => {
         setError('');
         setSuccess('');
         setIsLoading(true);
-
         try {
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/api/auth/login`, {
+            const response = await fetch(`${API_URL}/api/auth/login`, {
                 method: 'POST',
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(formData)
             });
             const data = await response.json();
-
+           
             if (response.ok) {
 
                 localStorage.setItem(
