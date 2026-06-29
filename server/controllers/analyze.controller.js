@@ -7,6 +7,9 @@ const { extractSkills } = require("../utils/skills.util");
 const Analysis = require("../models/Analysis");
 
 exports.analyze = async (req, res) => {
+  console.log("ANALYZE API HIT");
+console.log("FILE:", req.file);
+console.log("BODY:", req.body);
   try {
     if (!req.file) {
       return res.status(400).json({ error: "No file uploaded" });
