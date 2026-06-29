@@ -211,6 +211,7 @@ console.log("BODY:", req.body);
 
   } catch (err) {
     console.error("ANALYZE ERROR:", err);
+console.error(error);
     return res.status(500).json({ error: err.message });
   }
 };
