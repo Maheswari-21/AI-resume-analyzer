@@ -9,12 +9,12 @@ const errorHandler = require("./middlewares/error.middleware");
 const app = express();
 
 app.use(cors({
-    origin: [
-        "http://localhost:3000",
-        "http://localhost:3001",
-        "https://ai-resume-analyzer-two-beryl.vercel.app"
-    ],
-    credentials: true
+  origin: [
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "https://ai-resume-analyzer-git-main-maheswari-21s-projects.vercel.app"
+  ],
+  credentials: true
 }));
 app.use(express.json());
 app.use(cors());
