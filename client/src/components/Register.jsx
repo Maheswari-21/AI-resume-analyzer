@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MyCustomImage from "../assets/ai.png";
 import { Link, useNavigate } from "react-router-dom";
+import { API_URL } from "../config";
 const Register = () => {
 
     const [formData, setFormData] = useState({
@@ -29,7 +30,8 @@ const Register = () => {
         }
         setIsLoading(true);
         try {
-            const response = await fetch('http://localhost:5000/api/auth/register', {
+            const response = await fetch(`${API_URL}/auth/register`,
+                 {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
